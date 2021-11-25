@@ -1,0 +1,620 @@
+@media(max-width:1085px){
+    /* this is for mainnav area  */
+    .mainnav{
+        display:block;
+        padding: 1% 0%;
+    }
+    .links a{
+        display:block;
+        margin: 5px 0px;
+    }
+    /* this is for nav bar  */
+    nav{
+        width: 100%;
+        top: 100%;
+        text-align: center;
+    }
+    .nav-link ul li {
+        font-size: 15px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    /* this is for main area  */
+    .main-col{
+        padding-top: 0%;
+        padding-left: 0%;
+    }
+    .main{
+        height: 50vh;
+    }
+    .main-col img{
+        width: 100%;
+        height: 140%;
+        border: none;
+    }
+    .main-col h3{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .main-col p{
+        width: 80%;
+        margin: auto;
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    /* this is for achivements area  */
+    .achivements{
+        margin-top: 400px;
+    }
+    .achivements-col h3{
+        width: 90%;
+        margin: auto;
+        padding-left: 0%;
+    }
+    .achivements-col p{
+        width: 90%;
+        margin: auto;
+        padding-left: 0%;
+    }
+    .achivements-col img{
+        text-align: center;
+        left: .5%;
+    }
+    .title2{
+        order: 1;
+    }
+    .bgimg2{
+        order: 2;
+    }
+    .title3{
+        order: 3;
+    }
+    .bgimg3{
+        order: 4;
+    }
+    .bgimg3 img{
+        height: 80vh;
+    }
+    .title4{
+        order: 5;
+    }
+    .student-achivement{
+        order: 6;
+    }
+    .a2{
+        margin-top: 20%;
+    }
+    .a3{
+        margin-top: 10%;
+        margin-bottom: 40%;
+        top: 0px;
+    }
+    /* this is for course area  */
+    .courses h1{
+        font-size: 2rem;
+    }
+    .courses-col a{
+        font-size: 1.8rem;
+    }
+    .courses-col p {
+        font-size: 1.6rem;
+    }
+    .button-more{
+        font-size: 1rem;
+    }
+    .ug-programmes-img img{
+        top: -40px;
+    }
+    .diploma-course-img img{
+        top: 40px;
+    }
+    /* this is for placement area  */
+    .placement-col img{
+        width: 98%;
+        position: relative;
+        left: .5%;
+    }
+    /* this is for footer area  */
+    .footer-row{
+        flex-direction: column;
+    }
+    .footer-col img{
+        padding-left: 30%;
+        margin: auto;
+    }
+    .footer-col form{
+        padding-left: 0%;
+    }
+    /* this is for contact area  */
+    .contact-row{
+        flex-direction: column;
+    }
+    .contact-col{
+        border: none;
+    }
+}
+@media(max-width:600px){
+    /* this area is for mainnav  */
+    .logo{
+        width: 60%;
+        margin: auto;
+    }
+    .logo img {
+        width: 85px;
+        /* margin: auto; */
+        /* padding-left: 35%; */
+    }
+    /* .logo h2{
+        text-align: center;
+    } */
+  .menu-nav{
+      width: 50%;
+  }
+  .links{
+      position: static;
+  }
+  .links a{
+      display: inline-block;
+      font-size: 12px;
+      margin: 0px 4px;
+  }
+  /* this area is for nav  */
+  nav {
+      padding: 5px 0px;
+  }
+  .nav-link ul li a {
+      font-size: 14px;
+      padding: 5px 0px;
+  }
+  .nav-link ul li img {
+      width: 6px;
+  }
+  .achivements{
+      margin-top: 250px;
+  }
+  .a3{
+      margin-top: 100px;
+      top: 0px;
+      margin-bottom: 100px;
+  }
+}
+@media(max-width:425px){
+    /* this area is for mainnav  */
+    .logo{
+        width: 100%;
+        margin: auto;
+        /* display: block; */
+    }
+    .logo img {
+        width: 85px;
+        /* padding-left: 35%; */
+    }
+    /* .logo h2{
+        text-align: center;
+    } */
+  
+  .links{
+      position: static;
+  }
+  .links a{
+      display: inline-block;
+      font-size: 12px;
+  }
+  /* this area is for nav  */
+  nav {
+      padding: 5px 0px;
+  }
+  .nav-link ul li a {
+      font-size: 14px;
+      padding: 5px 0px;
+  }
+  .nav-link ul li img {
+      width: 6px;
+  }
+  /* this area is for manu-nav  */
+  .menu-nav{
+    width: 50%;
+}
+  .menu-nav ul li a {
+    font-size: 14px;
+  }
+  /* this is for main area  */
+  .main-col h3 {
+      font-size: 1.2rem;
+      line-height: 25px;
+      
+  }
+  .main-col p{
+      font-size: 1.1rem;
+      line-height: 35px;
+  }
+  .main-col img{
+      height: 35vh;
+      top: 20px;
+  }
+  /* this is for achivements area  */
+  .achivements{
+      margin-top: 150px;
+  }
+  .achivements-col h3 {
+      font-size: 1.2rem;
+      line-height: 25px;
+  }
+  .achivements-col p{
+      font-size: 1.1rem;
+      line-height: 35px;
+  }
+  .achivements-col img {
+    left: 0%;
+    border: 3px solid var(--redcolour);
+  }
+  .bgimg3 img {
+      height: 50vh;
+  }
+  .a3{
+      margin-bottom: 0%;
+  }
+
+  /* this area is for courses  */
+  .courses h1 {
+      font-size: 1.4rem;
+  }
+  .courses-bg{
+      flex-direction: column;
+  }
+  .courses-col a{
+      left: 0%;
+      font-size: 1.2rem;
+      text-align: center;
+  }
+  .button-more{
+      float: right;
+  }
+  .pg-programmes-details button {
+      float: right;
+  }
+  .courses-col p{
+      left: 0%;
+      font-size: 1.1rem;
+  }
+  .ug-programmes-details{
+      order: 10;
+  }
+  .ug-programmes-img{
+      order: 11;
+  }
+  .pg-programmes-details{
+    order: 12;
+  }
+  .pg-programmes-img{
+    order: 13;
+  }
+  .ug-programmes-img img {
+      top: 0px;
+  }
+  .diploma-course-details{
+      order: 14;
+  }
+  .diploma-course-img{
+      order: 15;
+  }
+  .diploma-course-img img {
+      top: 0px;
+  }
+  .courses-seemore{
+      text-align: center;
+  }
+  .hero-btn{
+      font-size: .8rem;
+  }
+  /* this area is for placement  */
+  .placement{
+      margin-top: 50px;
+  }
+  .placement-col h3{
+      font-size:1.2rem;
+  }
+  .placement-col p{
+      font-size:1rem;
+  }
+  .placement h1{
+      font-size: 1.4rem;
+  }
+  /* this area is for footer  */
+  .footer-col img {
+      width: 85px;
+      margin: auto;
+  }
+  .footer-col h3 {
+      font-size: 1.2rem;
+  }
+  .footer-col a{
+      font-size: 1rem;  
+  }
+  .footer-col form label {
+      font-size: 1rem;
+  }
+  .footer h1 {
+      font-size: 1.1rem;
+  }
+  /* this area is for about us page  */
+  .about-details h1 {
+      font-size: 1.4rem;
+  }
+  .about-details p{
+      font-size: 1rem;
+  }
+  /* this area is for courses  */
+  .faculties-col{
+      flex-direction: column;
+  }
+  .details{
+      width: 100%;
+  }
+  .faculties-col h3{
+      font-size: 1.4rem;
+  }
+  .faculties-col p{
+      font-size: 1.1rem;
+  }
+  .faculties-col a{
+      font-size: .8rem;
+  }
+  /* this area is for contact  */
+  .contact-col h3{
+      font-size: 1.2rem;
+  }
+  .contact-col span {
+      font-size: 1.2rem;
+  }
+  .contact-col a {
+      font-size: 1.2rem;
+  }
+}
+@media(max-width:322px){
+    /* this area is for mainnav  */
+    .logo{
+        width: 100%;
+        margin: auto;
+    }
+    .logo img {
+        width: 85px;
+    }
+    .logo h2{
+        font-size: 1rem;
+    }
+  
+  .links{
+      position: static;
+  }
+  .links a{
+      display: inline-block;
+      font-size: 12px;
+  }
+  /* this area is for nav  */
+  nav {
+      padding: 5px 0px;
+  }
+  .nav-link ul li {
+      float: left;
+  }
+  .sub-nav ul li {
+      display: none;
+  }
+  .nav-link ul li a {
+      font-size: 14px;
+      padding: 5px 0px;
+  }
+  .nav-link ul li img {
+      width: 6px;
+  }
+  /* this area is for manu-nav  */
+  .menu-nav{
+    width: 50%;
+}
+  .menu-nav ul li a {
+    font-size: 14px;
+  }
+  /* this is for main area  */
+  .main-col h3 {
+      font-size: 1.2rem;
+      line-height: 25px;
+      
+  }
+  .main-col p{
+      font-size: 1.1rem;
+      line-height: 30px;
+  }
+  .main-col img{
+      top: 35px;
+      height: 35vh;
+  }
+  /* this is for achivements area  */
+  .achivements-col h3 {
+      font-size: 1.2rem;
+      line-height: 25px;
+  }
+  .achivements-col p{
+      font-size: 1.1rem;
+      line-height: 35px;
+  }
+  .achivements-col img {
+    left: 0%;
+  }
+  .bgimg3 img {
+      height: 50vh;
+  }
+  .a2{
+      margin-top: 10%;
+  }
+  .a3{
+      margin-top: 50px;
+  }
+  /* this area is for courses  */
+  .courses h1 {
+      font-size: 1.4rem;
+  }
+  .courses-bg{
+      flex-direction: column;
+  }
+  .courses-col a{
+      left: 0%;
+      font-size: 1.2rem;
+      text-align: center;
+  }
+  .button-more{
+      float: right;
+  }
+  .pg-programmes-details button {
+      float: right;
+  }
+  .courses-col p{
+      left: 0%;
+      font-size: 1.1rem;
+  }
+  .ug-programmes-details{
+      order: 10;
+  }
+  .ug-programmes-img{
+      order: 11;
+  }
+  .pg-programmes-details{
+    order: 12;
+  }
+  .pg-programmes-img{
+    order: 13;
+  }
+  .ug-programmes-img img {
+      top: 0px;
+  }
+  .diploma-course-details{
+      order: 14;
+  }
+  .diploma-course-img{
+      order: 15;
+  }
+  .diploma-course-img img {
+      top: 0px;
+  }
+  .courses-seemore{
+      text-align: center;
+  }
+  .hero-btn{
+      font-size: .8rem;
+  }
+  /* this area is for placement  */
+  .placement{
+      margin-top: 50px;
+  }
+  .placement-col h3{
+      font-size:1.2rem;
+      line-height: 25px;
+  }
+  .placement-col p{
+      font-size:1rem;
+      line-height: 35px;
+  }
+  .placement h1{
+      font-size: 1.4rem;
+  }
+  .recruiters-col{
+      flex-basis: 40%;
+  }
+  /* this area is for footer  */
+  .footer-col img {
+      width: 85px;
+      margin: auto;
+  }
+  .footer-col h3 {
+      font-size: 1.2rem;
+  }
+  .footer-col a{
+      font-size: 1rem;  
+  }
+  .footer-col form label {
+      font-size: 1rem;
+  }
+  footer h1 {
+      font-size: 1rem;
+  }
+  /* this area is for about us page  */
+  .about-details h1 {
+      font-size: 1.4rem;
+      line-height: 25px;
+  }
+  .about-details p{
+      font-size: 1rem;
+      line-height: 35px;
+  }
+  /* this area is for courses  */
+  .faculties-col{
+      flex-direction: column;
+  }
+  .details{
+      width: 100%;
+  }
+  .faculties-col h3{
+      font-size: 1.4rem;
+  }
+  .faculties-col p{
+      font-size: 1.1rem;
+  }
+  .faculties-col a{
+      font-size: .8rem;
+  }
+  /* this area is for contact  */
+  .contact-col h3{
+      font-size: 1.2rem;
+  }
+  .contact-col span {
+      font-size: 1.2rem;
+  }
+  .contact-col a {
+      font-size: 1.2rem;
+  }
+}
+@media(max-width:282px){
+    .menu-nav{
+        width: 65%;
+    }
+    .achivements{
+        margin-top: 60%;
+    }
+    footer h1{
+        font-size: 1rem;
+    }
+    .follow{
+        top: 60%;
+    }
+    .bgimg3 img{
+        height: 30vh;
+    }
+}
+@media(min-height:890px){
+    @media(max-width:1085px){
+        .achivements{
+            margin-top: 30%;
+        }
+    }
+    .bgimg3 img{
+        height: 50vh;
+    }
+}
+@media(min-height:1340px){
+    @media(max-width:1085px){
+        .achivements{
+            margin-top: 20%;
+        }
+        .main{
+            height: 40vh;
+        }
+        .bgimg3 img{
+            height: 50vh;
+        }
+    }
+}
+

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/courses.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+
+<body>
+    <!-- creating this header for our website navbar -->
+    <header>
+        <div class="mainnav">
+            <div class="logo">
+                <img src="images/1logo.png" alt=""><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <h2>S.S. Jain Subodh p.g.</br>(Autonomous)collage</h2>
+            </div>
+            <div class="links">
+                <a href="">QUICK-LINKS</a>
+                <a href="">OTHER-LINKS</a>
+            </div>
+            <!-- this div is for position abslute nav bar -->
+            <nav>
+                <div class="nav-link">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about-us.html">ABOUT-US</a>&nbsp;<img src="images/down-arrow.png" alt="">
+                            <div class="sub-nav">
+                                <ul>
+                                    <li><a href="#">NAAC</a></li>
+                                    <li><a href="#">NIRF</a></li>
+                                    <li><a href="#">MESSAGE</a></li>
+                                    <li><a href="#">GOVERNING COUNCIL (S.S.)</a></li>
+                                    <li><a href="#">COLLEGE MENAGEMENT</a></li>
+                                    <li><a href="#">GOVERNING COUNCIL (COLLEGE)</a></li>
+                                    <li><a href="#">LIST OF INSTITUTES</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">COURSES</a>&nbsp;<img src="images/down-arrow.png" alt="">
+                            <div class="sub-nav">
+                                <ul>
+                                    <li><a href="#">UG PROGRAME</a></li>
+                                    <li><a href="#">PG PROGRAME</a></li>
+                                    <li><a href="#">CERTIFICATE COURSE</a></li>
+                                    <li><a href="#">DIPLOMA</a></li>
+                                    <li><a href="#">PG DIPLOMA</a></li>
+                                    <li><a href="#">M.PHIL COURSE</a></li>
+                                    <li><a href="#">PH.D COURSE</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">ADMISSIONS</a>&nbsp;<img src="images/down-arrow.png" alt="">
+                            <div class="sub-nav">
+                                <ul>
+                                    <li><a href="https://admissions.subodhpgcollege.com/" target="_blank">APPLY NOW</a></li>
+                                    <li><a href="#">ADMISSION PROCCES</a></li>
+                                    <li><a href="#">ADMISSION FORM</a></li>
+                                    <li><a href="#">PROSPECETS</a></li>
+                                    <li><a href="#">IMPORTANT DATES</a></li>
+                                    <li><a href="#">SCHOLARSHIP</a></li>
+                                    <li><a href="#">CAMPUS VISIT</a></li>
+                                    <li><a href="#">ANTI RAGGING</a></li>
+                                    <li><a href="#">LETRY ENTRY</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="contact.html">CONTACT-US</a></li>
+                    </ul>
+                </div>
+                <!-- this nav for the menu button icon -->
+                <div class="menu-bar">
+                    <i class="fa fa-bars" onclick="showMenu()" id="faBars"></i>
+                    <i class="fa fa-times" onclick="hideMenu()" id="faTimes"></i>
+                    <div class="menu-nav" id="menuNav">
+                        <ul>
+                            <li><a href="http://136.232.11.214/Exams/" target="blank">SUBODH PORTAL</a></li>
+                            <li><a href="#">STUDENT CONNER</a></li>
+                            <li><a href="#">LIFE AT SUBODH</a></li>
+                            <li><a href="#">PLACEMENTS</a></li>
+                            <li><a href="#">NEWS & ANNOUNCEMENTS</a></li>
+                            <li><a href="#">EXAMINATION</a></li>
+                            <li><a href="#">STAFF MEMBERS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="faculties">
+        <div class="row">
+            <div class="faculties-col ug-program">
+                <img src="images/facultei/undergraduate.png" alt="">
+                <div class="details">
+                    <h3>Undergraduate Programmes</h3>
+                    <p>In our College we provide 25 diffrent types of UG-PROGRAMS </p>
+                    <a href="#">click hear for more information</a>
+                </div>
+            </div>
+            <div class="faculties-col pg-program">
+                <img src="images/facultei/postgraduate.png" alt="">
+                <div class="details">
+                    <h3>Postgraduate Programmes</h3>
+                    <p>In our College we provide 22 diffrent types of PG-PROGRAMS </p>
+                    <a href="#">click hear for more information</a>
+                </div>
+            </div>
+            <div class="faculties-col certificate">
+                <img src="images/facultei/certificate.png" alt="">
+                <div class="details">
+                    <h3>Certification Programmes</h3>
+                    <p>In our College we provide 23 diffrent types of CERTIFICATION-PROGRAMS </p>
+                    <a href="#">click hear for more information</a>
+                </div>
+            </div>
+            <div class="faculties-col diploma">
+                <img src="images/facultei/diploma.png" alt="">
+                <div class="details">
+                    <h3>Diploma</h3>
+                    <p>In our College we provide 3 diffrent types of DIPLOMA </p>
+                    <a href="#">click hear for more information</a>
+                </div>
+            </div>
+            <div class="faculties-col pg-diploma">
+                <img src="images/facultei/pgdiploma.png" alt="">
+                <div class="details">
+                    <h3>PG Diploma</h3>
+                    <p>In our College we provide 9 diffrent types of PG DIPLOMA </p>
+                    <a href="#">click hear for more information</a>
+                </div>
+            </div>
+            <div class="faculties-col m.phil">
+                <img src="images/facultei/m.phil.png" alt="">
+                <div class="details">
+                    <h3>M.Phil. Programmes</h3>
+                    <p>In our College we provide only 1 types of M.Phil. PROGRAMMES</p>
+                    <a href="#">click hear for more information</a>
+                </div>
+            </div>
+            <div class="faculties-col phd">
+                <img src="images/facultei/phd.png" alt="">
+                <div class="details">
+                    <h3>Ph.D. Programmes</h3>
+                    <p>In our College we provide 12 types of Ph.D. PREOGRAMMES</p>
+                    <a href="#">click hear for more information</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- this area is for footer  -->
+    <footer>
+        <div class="footer-row">
+            <div class="footer-col b1">
+                <img src="images/1logo.png">
+                <h3>S.S. Jain Subodh p.g.</br>(Autonomous)collage</h3>
+            </div>
+            <div class="footer-col b2">
+                <a href="#">Tour</a>
+                <a href="#">Inside Subodh</a>
+                <a href="#">Academic calender</a>
+                <a href="#">Bookstore</a>
+            </div>
+            <div class="footer-col b3">
+                <form action="">
+                    <label for="email">News-letter</label><br>
+                    <input type="email" name="email" id="email" placeholder="Subsscribe for news">
+                </form>
+            </div>
+        </div>
+        <h1>Copyright &copy; All Right Reserved <a href="">S.S. Jain Subodh p.g. (Autonomous) College</a></h1>
+    </footer>
+
+    <script>
+        var menuNav = document.getElementById("menuNav");
+        var faBars = document.getElementById("faBars")
+        var faTimes = document.getElementById("faTimes")
+
+        function showMenu() {
+            menuNav.style.right = "-2px";
+            faBars.style.display = "none"
+            faTimes.style.display = "block"
+
+        }
+        function hideMenu() {
+            menuNav.style.right = "-500px"
+            faTimes.style.display = "none"
+            faBars.style.display = "block"
+        }
+
+
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
